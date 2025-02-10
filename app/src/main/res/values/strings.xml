@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PingPongGame</string>
+    <string name="default_web_client_id">YOUR_CLIENT_ID.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1203715617463153</string>
+    <string name="fb_login_protocol_scheme">fb1203715617463153</string>
+    <string name="facebook_client_token">003962de00a184247ad9a706215a9677</string>
+</resources>

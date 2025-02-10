@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "31035657987",
+    "project_id": "pingponggame-1dec0",
+    "storage_bucket": "pingponggame-1dec0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31035657987:android:1a66890e6cf5c435fb6336",
+        "android_client_info": {
+          "package_name": "com.example.pingponggame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31035657987-kttacf9vq115rpf3kppn22n8bp6lufjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pingponggame",
+            "certificate_hash": "14075ecce5587f026020e69d9590b960772fbc18"
+          }
+        },
+        {
+          "client_id": "31035657987-qnactls84v5rjop485eiomhdleng6b5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1yW48gVsu7Qjs8oDE4AT17gWd_nXLu8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31035657987-qnactls84v5rjop485eiomhdleng6b5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

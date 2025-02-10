@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    >
+    <LinearLayout
+        android:id="@+id/layout_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <ImageButton
+            android:id="@+id/btn_user"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/icon_user"
+            android:layout_marginLeft="5dp"
+            />
+        <RelativeLayout
+            android:layout_width="365dp"
+            android:layout_height="40dp" >
+            <TextView
+                android:id="@+id/txt_hello"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:text="HELLO PHI"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="serif"
+                android:textColor="#CF8585"
+                android:layout_marginLeft="10dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_best_score"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="TOP SCORE : "
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="@font/phi"
+        android:layout_below="@id/layout_user"
+        android:layout_marginTop="70dp"
+        android:textColor="#EDC181"
+        android:layout_marginLeft="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout_btn_home"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/layout_btn_ranking"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/btn_gif_ranking"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/gifranking"
+                android:scaleType="fitXY"
+                />
+            <ImageButton
+                android:id="@+id/btn_Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/txt_ranking"
+                />
+
+        </LinearLayout>
+        <ImageButton
+            android:layout_marginTop="70dp"
+            android:id="@+id/btn_startplaying"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/btn_startplaying"
+            android:scaleType="fitXY" />
+
+    </LinearLayout>
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_gif"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layout_btn_home"
+        android:layout_marginTop="60dp"
+        />
+</RelativeLayout>

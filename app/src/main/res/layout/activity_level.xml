@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/bg_level">
+    <ImageButton
+        android:id="@+id/btn_backLevel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/icon_back"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY" />
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/btn_animal1"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/shape_btn_level" />
+
+                <ImageView
+                    android:id="@+id/lock1"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="33dp"
+                    android:src="@drawable/icon_unlock" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="-40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/yellowbirdup" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/layout_btn_2"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageButton
+                        android:id="@+id/btn_animal2"
+                        android:clickable="false"
+                        android:layout_width="140dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_btn_level2" />
+
+                    <ImageView
+                        android:id="@+id/lock2"
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_lock" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@id/lock2"
+                        android:text="40"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="-40dp"
+                    android:layout_toLeftOf="@id/layout_btn_2"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/a5" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/layout_btn_3"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/btn_animal3"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:background="@drawable/shape_btn_level" />
+
+                <ImageView
+                    android:id="@+id/lock3"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/icon_lock" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/lock3"
+                    android:text="80"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="-30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/a3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/layout_btn_4"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageButton
+                        android:id="@+id/btn_animal4"
+                        android:layout_width="140dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:clickable="false"
+                        android:background="@drawable/shape_btn_level2" />
+
+                    <ImageView
+                        android:id="@+id/lock4"
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_lock" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@id/lock4"
+                        android:text="140"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="-40dp"
+                    android:layout_toLeftOf="@id/layout_btn_4"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/a1" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/layout_btn_5"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/btn_animal5"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:background="@drawable/shape_btn_level" />
+
+                <ImageView
+                    android:id="@+id/lock5"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/icon_lock" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/lock5"
+                    android:text="200"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="-50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/a4" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/layout_btn_6"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageButton
+                        android:id="@+id/btn_animal6"
+                        android:layout_width="140dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_btn_level2" />
+
+                    <ImageView
+                        android:id="@+id/lock6"
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:clickable="false"
+                        android:src="@drawable/icon_lock" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@id/lock6"
+                        android:text="250"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="-40dp"
+                    android:layout_toLeftOf="@id/layout_btn_6"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/a2" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_start_level"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/start_icon2" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
